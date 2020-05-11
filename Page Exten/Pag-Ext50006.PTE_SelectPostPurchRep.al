@@ -5,6 +5,7 @@ pageextension 50006 "PTE_Select PostPurchRep" extends "Posted Purchase Receipt"
     }
     actions
     {
+        /*
         addafter("&Print")
         {
             // Add changes to page actions here
@@ -25,6 +26,7 @@ pageextension 50006 "PTE_Select PostPurchRep" extends "Posted Purchase Receipt"
                 end;
             }
         }
+        */
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

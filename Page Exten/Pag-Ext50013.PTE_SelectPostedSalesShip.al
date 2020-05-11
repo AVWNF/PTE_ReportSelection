@@ -5,7 +5,7 @@ pageextension 50013 "PTE_Select PostedSalesShip" extends "Posted Sales Shipment"
     }
     actions
     {
-        addafter("&Print")
+        /*addafter("&Print")
         {
             // Add changes to page actions here
             action("PTE_Report Selections")
@@ -24,7 +24,7 @@ pageextension 50013 "PTE_Select PostedSalesShip" extends "Posted Sales Shipment"
                     ReportPageList.Run;
                 end;
             }
-        }
+        }*/
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

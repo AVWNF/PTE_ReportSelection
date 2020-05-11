@@ -5,6 +5,7 @@ pageextension 50017 "PTE_Select Transfer Order" extends "Transfer Order"
     }
     actions
     {
+        /*
         addafter("&Print")
         {
             // Add changes to page actions here
@@ -25,6 +26,7 @@ pageextension 50017 "PTE_Select Transfer Order" extends "Transfer Order"
                 end;
             }
         }
+        */
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

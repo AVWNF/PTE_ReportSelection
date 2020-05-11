@@ -5,7 +5,7 @@ pageextension 50009 "PTE_Select SalesQuote" extends "Sales Quote"
     }
     actions
     {
-        addafter(Print)
+        /*addafter(Print)
         {
             // Add changes to page actions here
             action("PTE_Report Selections")
@@ -24,7 +24,7 @@ pageextension 50009 "PTE_Select SalesQuote" extends "Sales Quote"
                     ReportPageList.Run;
                 end;
             }
-        }
+        }*/
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

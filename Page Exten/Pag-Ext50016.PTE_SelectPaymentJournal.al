@@ -5,7 +5,7 @@ pageextension 50016 "PTE_Select PaymentJournal" extends "Payment Journal"
     }
     actions
     {
-        addafter("Post and &Print")
+        /*addafter("Post and &Print")
         {
             // Add changes to page actions here
             action("PTE_Report Selections")
@@ -24,7 +24,7 @@ pageextension 50016 "PTE_Select PaymentJournal" extends "Payment Journal"
                     ReportPageList.Run;
                 end;
             }
-        }
+        }*/
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

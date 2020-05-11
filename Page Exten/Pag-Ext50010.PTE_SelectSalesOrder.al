@@ -5,6 +5,7 @@ pageextension 50010 "PTE_Select SalesOrder" extends "Sales Order"
     }
     actions
     {
+        /*
         addafter("&Print")
         {
             // Add changes to page actions here
@@ -25,6 +26,7 @@ pageextension 50010 "PTE_Select SalesOrder" extends "Sales Order"
                 end;
             }
         }
+        */
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";

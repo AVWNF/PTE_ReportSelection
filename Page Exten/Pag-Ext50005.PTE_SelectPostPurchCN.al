@@ -5,7 +5,7 @@ pageextension 50005 "PTE_Select Post Purch CN" extends "Posted Purchase Credit M
     }
     actions
     {
-        addafter("&Print")
+        /*addafter("&Print")
         {
             // Add changes to page actions here
             action("PTE_Report Selections")
@@ -25,6 +25,7 @@ pageextension 50005 "PTE_Select Post Purch CN" extends "Posted Purchase Credit M
                 end;
             }
         }
+        */
     }
     var
         ReportPageList: Page "PTE_ReportSelection - List";
